@@ -14,6 +14,7 @@ export default defineNuxtConfig({
             ]
         }
     },
+    ssr: false,
     modules: ['nuxt-primevue'],
     primevue: {
         options: { ripple: true },
