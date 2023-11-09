@@ -4,8 +4,8 @@
 #
 name: 🚀 Deploy Nuxt site to Pages
 
-env:
-  NUXT_APP_BASE_URL: "/sakai-nuxt/"
+# env:
+#   NUXT_APP_BASE_URL: "/sakai-nuxt/"
 
 on:
   # Runs on pushes targeting the default branch
