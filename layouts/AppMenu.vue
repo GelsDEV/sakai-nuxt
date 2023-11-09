@@ -190,7 +190,7 @@ const model = ref([
             {
                 label: 'View Source',
                 icon: 'pi pi-fw pi-search',
-                url: 'https://github.com/primefaces/sakai-nuxt',
+                url: 'https://github.com/GelsDEV/sakai-nuxt',
                 target: '_blank'
             }
         ]
@@ -204,11 +204,6 @@ const model = ref([
             <app-menu-item v-if="!item.separator" :item="item" :index="i"></app-menu-item>
             <li v-if="item.separator" class="menu-separator"></li>
         </template>
-        <li>
-            <a href="https://www.primefaces.org/primeblocks-vue/#/" target="_blank">
-                <img src="/layout/images/banner-primeblocks.png" alt="Prime Blocks" class="w-full mt-3" />
-            </a>
-        </li>
     </ul>
 </template>
 

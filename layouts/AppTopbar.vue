@@ -23,7 +23,7 @@ const onTopBarMenuButton = () => {
 
 const onSettingsClick = () => {
     topbarMenuActive.value = false;
-    router.push('/utilities/documentation');
+    router.push('/documentation');
 };
 
 const topbarMenuClasses = computed(() => {
