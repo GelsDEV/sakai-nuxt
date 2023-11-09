@@ -15,6 +15,7 @@ export default defineNuxtConfig({
         }
     },
     ssr: false,
+    baseURL: '/sakai-nuxt/', // baseURL: '/<repository>/'
     modules: ['nuxt-primevue'],
     primevue: {
         options: { ripple: true },
