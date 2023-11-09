@@ -20,13 +20,13 @@
         "primevue": "^3.39.0"
     },
     "devDependencies": {
+        "@babel/eslint-parser": "^7.18.9",
         "eslint": "^8.30.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-nuxt": "^4.0.0",
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-vue": "^9.4.0",
-        "@babel/eslint-parser": "^7.18.9",
-        "nuxt": "3.3.3",
+        "nuxt": "^3.8.1",
         "nuxt-primevue": "^0.1.0",
         "prettier": "2.7.1",
         "sass": "^1.60.0",
